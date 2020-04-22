@@ -1,0 +1,20 @@
+#assigning elements to different lists
+list1 = [1,2,3,4,5,6]
+list2 = ['c','python','java']
+list1.append(9)
+list2.append('html')
+print(list1)
+print(list2)
+
+#Accessing elements from a tuple
+tuple1 = ('abhi','john','mike','leo','duke')
+print(tuple1[2])
+print(tuple1[0])
+print(tuple1[4])
+
+#Deleting different dictionary elements
+mydict = { "India":"country","Uttar Pradesh":"state","Gorakhpur":"district","Dehratikar":"village"}
+print(mydict)
+del mydict["India"]
+del mydict["Dehratikar"]
+print(mydict)
